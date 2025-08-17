@@ -1,10 +1,13 @@
-># tui-csv-viewer
+># tui-csv-editor
 
 ## 概要
+
 `tui-csv-viewer` は、CSV ファイルをターミナル上で表形式に表示・編集できる Rust 製の TUI（Text User Interface）ツールです。コマンドライン引数で CSV を指定し、矢印キーでセルを移動、`e` でセル編集、`w` で保存、`q` で終了できます。編集内容は元の CSV ファイルへ上書き保存されます。
 
 - フレームワーク: Ratatui + Crossterm
 - 特徴: シンプルな操作、ヘッダー無しの素直な表示、最小依存
+
+このプログラムはCodex CLIで作成しました。
 
 ## 実行方法
 1) ビルド
